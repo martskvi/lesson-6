@@ -16,7 +16,7 @@
 	width: 100% ;
 	z-index: 20 ;
 }
-li {
+.li {
 	float: left;
 	padding-left: 50px ;
 }
@@ -59,48 +59,44 @@ li {
 	background-repeat: no-repeat;
 }
 
+
+
 /*section2*/
-/*.wraper {
-	top: 50%;
-	right: 50%;
-	width: 1325px;
-	height: 1518px;
-}*/
-.sec-h5 {
+.h5 {
 	font-size: 22px;
 	color: #FF7A00;
 	text-transform: capitalize;
-	/*padding-left: 172px ;
-	padding-top: 84px ;*/
+	margin: 81px 0 81px 172px;
 }
-.sec-wraper {
-	margin-top: 81px ;
-	margin-left: 138px ;
-	width: 636px ;
-	height: 673px ;
-}
-.sec2h3 {
+.div-img {
 	float: left;
-	width: 563px;
-	height: 94px;
-	font-size: 36px;
-	color: #181C28 ;
-	display: flex;
-	flex-direction: column;
-	margin-top: 20px ;
+	margin-left: 138px;
 }
-.sec2p {
+.div-img2 {
+	float: left;
+	margin-left: 51px;
+}
+.section2::after {
+	content: '' ;
+	clear: both;
+	display: block;
+}
+.h3 {
+	width: 563px;
+	font-size: 36px;
+	color: #181C28;
+	margin-top: 20px;
+}
+.paragraf1 {
 	width: 636px ;
-	height: 39px;
 	font-size: 16px ;
 	color: #7B7B7B ;
-	display: flex;
-	flex-direction: column;
-	/*margin-top: 44px ;*/
+	margin-top: 44px ;
 }
-.sec2p2 {
-	display: inline-block;
+.paragraf2 {
 	color: #FF7A00;
+	margin-top: 13px;
+	display: inline-block;
 }
 .divider {
 	width: 47px;
@@ -109,15 +105,84 @@ li {
 	display: inline-block;
 	margin-left: 18px;
 }
-.sec-child {
+.second {
+	margin-top: 57px;
+}
+.three {
+	width: 1600px;
+}
+.load-more {
+	width: 190px;
+	height: 70px;
+	background-color: #FF7A00;
+	margin: 66px auto;
+}
+.paragraf3 {
+	padding: 23px 46px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.four {
+	background-color: #181C28;
+	width: 1600px;
+	height: 266px;
+}
+.last::after {
+	content: '' ;
+	clear: both;
+	display: block;
+}
+.last-section::after {
+	content: '' ;
+	clear: both;
+	display: block;
+}
+.h2 {
+	color: #282828;
+	font-size: 24px;
+	margin-top: 82px;
+	margin-left: 138px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.li1 {
+	line-height: 20px;
+	margin-left: 138px;
+	color: #7B7B7B;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.last-div {
 	float: left;
 }
-.sec-child1 {
+.last-div2 {
 	float: left;
+	margin-left: 96px;
 }
-
-
-/*clear*/
-.sec-child1 {
+.last-div3 {
+	float: left;
+	margin-left: 96px;
+}
+.last-div4 {
 	float: right;
+	margin-right: 138px;
+}
+.last-div5 {
+	margin-left: 168px;
+	width: 190px;
+	height: 40px;
+}
+.last-img2 {
+	margin-left: 10px;
+	margin-bottom: 9px;
+}
+.last-img3 {
+	margin-left: 5px;
+}
+.last-paragraf {
+	position: fixed;
+	bottom: 0px;
+	right: 142px;
+	font-size: 16px;
+	color: #A4A4A4;
 }
